@@ -38,7 +38,7 @@ const Home: React.FC = () => {
               },
             }}
           >
-            X (旧twitter)
+            X 
           </Button>
           <Button
             variant="outlined"
@@ -58,7 +58,7 @@ const Home: React.FC = () => {
           </Button>
           <Button
             variant="outlined"
-            href="https://github.com/mathuhiro97"
+            href="https://github.com/matuhiro97"
             target="_blank"
             rel="noopener noreferrer"
             sx={{

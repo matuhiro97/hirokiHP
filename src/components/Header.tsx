@@ -10,7 +10,7 @@ const Header: React.FC = () => {
     <AppBar
       position="static"
       sx={{
-        backgroundColor: '#66bb6a', // 薄めの緑色
+        backgroundColor: '#00695f', // koyyuiの緑色
         padding: '0.5rem', // AppBar全体のパディング
       }}
     >

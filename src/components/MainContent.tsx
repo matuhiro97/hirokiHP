@@ -1,22 +1,25 @@
 import React from 'react';
+import { Grid, Typography } from '@mui/material';
 
 const MainContent: React.FC = () => {
   return (
     <main>
-      <section id="home">
-        <h2>Home</h2>
-        <p>Welcome to my homepage. This is a simple website built with React and TypeScript.</p>
-      </section>
-      <section id="about">
-        <h2>About</h2>
-        <p>This is a demo website to showcase the usage of React components and TypeScript.</p>
-      </section>
-      <section id="contact">
-        <h2>Contact</h2>
-        <p>You can contact us at: example@example.com</p>
-      </section>
+      <Grid container spacing={2}>
+        <Grid item xs={12}>
+          <Typography variant="h2">Home</Typography>
+          <Typography>Welcome to my homepage. This is a simple website built with React and TypeScript.</Typography>
+        </Grid>
+        <Grid item xs={12}>
+          <Typography variant="h2">About</Typography>
+          <Typography>This section talks about 松本浩輝 and his journey with React components and TypeScript.</Typography>
+        </Grid>
+        <Grid item xs={12}>
+          <Typography variant="h2">Contact</Typography>
+          <Typography>You can contact us at: example@example.com</Typography>
+        </Grid>
+      </Grid>
     </main>
   );
-}
+};
 
 export default MainContent;

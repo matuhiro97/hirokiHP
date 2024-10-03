@@ -8,9 +8,9 @@ import Button from '@mui/material/Button';
 const Header: React.FC = () => {
   return (
     <AppBar
-      position="static"
+      position="fixed"
       sx={{
-        backgroundColor: '#00695f', // koyyuiの緑色
+        backgroundColor: '#00000080', //黒系透明
         padding: '0.5rem', // AppBar全体のパディング
       }}
     >

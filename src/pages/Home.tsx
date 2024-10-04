@@ -42,7 +42,7 @@ const Home: React.FC = () => {
           </Button>
           <Button
             variant="outlined"
-            href="https://www.instagram.com/msuhiro.6/"
+            href="https://www.instagram.com/msuhro.6?igsh=MmZoNW9xdTRrbW1n&utm_source=qr"
             target="_blank"
             rel="noopener noreferrer"
             sx={{

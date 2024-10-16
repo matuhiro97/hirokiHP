@@ -1,0 +1,65 @@
+[33mcommit df0c35e6b745a6c54760d0662d8b55da001f4351[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: matuhiro97 <115542804+matuhiro97@users.noreply.github.com>
+Date:   Wed Oct 9 15:46:31 2024 +0900
+
+    Add Vercel Analytics to App
+
+[33mcommit 0511137e01bce213df4da34093ed30f9eca133da[m
+Author: matuhiro97 <115542804+matuhiro97@users.noreply.github.com>
+Date:   Wed Oct 9 11:59:32 2024 +0900
+
+    自己紹介ページの横調整のために西暦の丸囲み廃止。一旦、自己紹介ページは完成とする。
+
+[33mcommit 512d73fb8d131550dc6273b8c5fcf7999a081100[m
+Author: matuhiro97 <115542804+matuhiro97@users.noreply.github.com>
+Date:   Tue Oct 8 01:52:53 2024 +0900
+
+    自己紹介ページとりあえずかんせい
+
+[33mcommit fa7cbfad5d242e1439d83e72554192caf7422eae[m
+Author: matuhiro97 <115542804+matuhiro97@users.noreply.github.com>
+Date:   Sat Oct 5 08:45:22 2024 +0900
+
+    自己紹介pageの色を変えた。文字のレイアウト変更。
+
+[33mcommit 5a8fd8d9d42fca346eef25a72840f08ac402fb75[m
+Author: matuhiro97 <115542804+matuhiro97@users.noreply.github.com>
+Date:   Fri Oct 4 01:23:04 2024 +0900
+
+    自己紹介pageに色付けた。
+
+[33mcommit 862d31ab834228b11450169e70e4b96ea6271e56[m
+Author: matuhiro97 <115542804+matuhiro97@users.noreply.github.com>
+Date:   Thu Oct 3 13:28:47 2024 +0900
+
+    headerの色を透明&position fixedにして動くようにした
+
+[33mcommit 39a229c569f3023319209f900f74ae64d95a52ba[m
+Author: matuhiro97 <115542804+matuhiro97@users.noreply.github.com>
+Date:   Thu Oct 3 07:59:05 2024 +0900
+
+    (旧twitter)をけした。
+
+[33mcommit fed39ad7caf70ea820cb3b01f3d2fc1e20c03cba[m
+Author: matuhiro97 <115542804+matuhiro97@users.noreply.github.com>
+Date:   Wed Oct 2 20:44:47 2024 +0900
+
+    MUIi入れた！homeをおしゃれにした
+
+[33mcommit c15474edffa7729480d3f31c88af1411d4e281cf[m
+Author: matuhiro97 <115542804+matuhiro97@users.noreply.github.com>
+Date:   Wed Oct 2 12:51:06 2024 +0900
+
+    HeaderのhoneとかAboutおしたらページ遷移するようにした
+
+[33mcommit 9592397f486e79dfb9bc4bcef604818f24e79d10[m
+Author: matuhiro97 <115542804+matuhiro97@users.noreply.github.com>
+Date:   Tue Oct 1 15:53:58 2024 +0900
+
+    Refactor project to TypeScript and add new components
+
+[33mcommit b4ad51f2ba3643348c731524084876bbeb17de0d[m
+Author: matuhiro97 <115542804+matuhiro97@users.noreply.github.com>
+Date:   Tue Oct 1 13:33:09 2024 +0900
+
+    Initial commit

@@ -2,7 +2,6 @@ import React from 'react';
 import { Typography, Grid, Card, CardActionArea, CardContent, CardMedia, Chip, Box } from '@mui/material';
 import projects from '../data/cards.json'; // cards.jsonからデータをインポート
 
-
 const Contact: React.FC = () => {
   return (
     <section
@@ -19,8 +18,19 @@ const Contact: React.FC = () => {
       <Grid container spacing={4} alignItems="stretch">
         {projects.map((project, index) => (
           <Grid item xs={12} sm={6} md={4} key={index}>
-            <Card style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
-              <CardActionArea href={project.link} target="_blank" rel="noopener noreferrer" style={{ flexGrow: 1 }}>
+            <Card
+              sx={{
+                height: '100%',
+                display: 'flex',
+                flexDirection: 'column',
+                transition: 'transform 0.3s ease-in-out',  // アニメーションを追加
+                '&:hover': {
+                  transform: 'scale(1.05)',  // カードを浮かせる
+                  boxShadow: '0 10px 20px rgba(0, 0, 0, 0.2)',  // ホバー時の影
+                },
+              }}
+            >
+              <CardActionArea href={project.link} target="_blank" rel="noopener noreferrer" sx={{ flexGrow: 1 }}>
                 <CardMedia
                   component="img"
                   alt={project.name}
@@ -37,7 +47,7 @@ const Contact: React.FC = () => {
                   </Typography>
                   <Box mb={1}>
                     {project.tags.map((tag, tagIndex) => (
-                      <Chip key={tagIndex} label={tag} size="small" style={{ marginRight: '0.5rem' }} />
+                      <Chip key={tagIndex} label={tag} size="small" sx={{ marginRight: '0.5rem' }} />
                     ))}
                   </Box>
                   <Typography variant="caption" color="text.secondary">

@@ -12,9 +12,7 @@ const Contact: React.FC = () => {
         paddingRight: '1rem',
       }}
     >
-      <Typography variant="h4" component="h2" gutterBottom>
-        作成物
-      </Typography>
+
       <Grid container spacing={4} alignItems="stretch">
         {projects.map((project, index) => (
           <Grid item xs={12} sm={6} md={4} key={index}>

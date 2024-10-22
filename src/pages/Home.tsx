@@ -15,7 +15,7 @@ const Home: React.FC = () => {
         color: '#fff', // テキストの色を白に設定
       }}
     >
-      <h2>まつもと ひろき</h2>
+      <h2>本名はミス</h2>
       <nav>
         <Box
           sx={{

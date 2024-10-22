@@ -2,18 +2,18 @@
     {
       "name": "miyadai-tower-battle",
       "description": "宮〇関係のキャラクターが出てくる動物タワーバトルのオマージュゲームです。",
-      "imageUrl": "https://pbs.twimg.com/media/F96xe5Qa0AAbjKm?format=png&name=900x900",
+      "imageUrl": "../public/cards-imgs/01.png",
       "link": "https://unityroom.com/games/miyadaitower",
       "tags": ["Unity", "C#"],
       "date": "2023/11/16"
     },
     {
-      "name": "ポートフォリオサイト",
-      "description": "自分の作品を紹介するためのポートフォリオサイトです",
-      "imageUrl": "https://via.placeholder.com/300",
-      "link": "https://example.com/portfolio",
-      "tags": ["HTML", "CSS", "JavaScript"],
-      "date": "2022/01/10"
+      "name": "企業マッチング",
+      "description": "ユーザーに最もマッチする宮崎県内の企業を簡単にみつけられます。",
+      "imageUrl": "../public/cards-imgs/02.png",
+      "link": "https://taishi.pythonanywhere.com/match/company/0/",
+      "tags": ["Jango","SQLite"],
+      "date": "2024/9/26"
     },
     {
       "name": "チャットアプリ",

@@ -33,7 +33,7 @@ const Contact: React.FC = () => {
                   alt={project.name}
                   image={project.imageUrl}
                   title={project.name}
-                  sx={{ height: 200, objectFit: 'cover' }} // 高さを200pxに設定し、カードにフィットするように調整
+                  sx={{ width: '100%', height: 'auto', objectFit: 'cover' }} // 幅を100%に設定し、高さを自動調整
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">

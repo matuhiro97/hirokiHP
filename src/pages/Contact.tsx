@@ -12,7 +12,6 @@ const Contact: React.FC = () => {
         paddingRight: '1rem',
       }}
     >
-
       <Grid container spacing={4} alignItems="stretch">
         {projects.map((project, index) => (
           <Grid item xs={12} sm={6} md={4} key={index}>
@@ -32,9 +31,9 @@ const Contact: React.FC = () => {
                 <CardMedia
                   component="img"
                   alt={project.name}
-                  height="140"
                   image={project.imageUrl}
                   title={project.name}
+                  sx={{ height: 200, objectFit: 'cover' }} // 高さを200pxに設定し、カードにフィットするように調整
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">

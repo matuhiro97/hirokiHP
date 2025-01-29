@@ -5,6 +5,8 @@ import Typography from '@mui/material/Typography';
 import { Link } from 'react-router-dom';
 import Button from '@mui/material/Button';
 
+
+
 const Header: React.FC = () => {
   return (
     <AppBar
@@ -36,7 +38,7 @@ const Header: React.FC = () => {
           sx={{
             margin: '0 0.5rem',
             '&:hover': {
-              backgroundColor: '#4caf50', // ホバー時に少し濃い緑色
+              backgroundColor: '#3949ab', // ホバー時に少し濃い緑色
             },
           }}
         >
@@ -49,7 +51,7 @@ const Header: React.FC = () => {
           sx={{
             margin: '0 0.5rem',
             '&:hover': {
-              backgroundColor: '#4caf50', // ホバー時に少し濃い緑色
+              backgroundColor: '#', // ホバー時に少し濃い緑色
             },
           }}
         >

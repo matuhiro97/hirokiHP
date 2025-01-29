@@ -57,9 +57,8 @@ const TimelineItem = ({ year, description }) => (
   <Box
     sx={{
       display: 'flex',
-      alignItems: 'center',
+      alignItems: 'center', // 中央揃えに戻す
       marginBottom: '1rem',
-      flexWrap: { xs: 'wrap', sm: 'nowrap' }, // スマホでは折り返し
     }}
   >
     <YearCircle year={year} />
@@ -67,9 +66,9 @@ const TimelineItem = ({ year, description }) => (
       variant="body1" 
       sx={{ 
         color: '#fff',
-        width: { xs: '100%', sm: 'auto' }, // スマホでは全幅
-        marginTop: { xs: '0.5rem', sm: '0' }, // スマホでは上部にマージン
-        fontSize: { xs: '0.9rem', sm: '1rem' }, // レスポンシブフォントサイズ
+        fontSize: { xs: '0.9rem', sm: '1rem' },
+        // paddingTop を削除
+        lineHeight: '1.2', // 行間を少し狭くする
       }}
     >
       {description}
@@ -111,7 +110,7 @@ const About = () => {
       {/* Section 1: 何者なのか */}
       <Section id="about" title="なにもの？" backgroundColor="#3949ab">
         <Typography variant="body1" sx={{ fontSize: { xs: '0.9rem', sm: '1rem' } }}>
-          情報系学部の3年生です。ゲーム、Webなど作ったりしています。
+          情報系学部の3年生です。Web,アプリ,ゲームなど作ったりしています。
         </Typography>
         <Typography variant="body1" sx={{ fontSize: { xs: '0.9rem', sm: '1rem' } }}>
           登山、キャンプ、旅行もそこそこ好きです。
@@ -121,15 +120,24 @@ const About = () => {
       {/* Section 2: 学歴 */}
       <Section id="education" title="学歴" backgroundColor="#42a5f5">
         <TimelineItem year="2010" description="月小学校" />
-        <TimelineItem year="2013" description="月中学校" />
-        <TimelineItem year="2018" description="羊羹高校" />
-        <TimelineItem year="2020" description="宮崎大学大学工学部 工学科 情報通信工学プログラム" />
+        <TimelineItem year="2016" description="月中学校" />
+        <TimelineItem year="2019" description="羊羹高校" />
+        <TimelineItem 
+          year="2022" 
+          description={
+            <>
+              宮崎大学大学工学部<br />
+              工学科 情報通信工学プログラム
+            </>
+          } 
+        />
       </Section>
 
       {/* Section 3: 職歴 */}
       <Section id="experience" title="職歴" backgroundColor="#00bcd4">
-        <TimelineItem year="2014" description="smolt" />
-        <TimelineItem year="2015" description="ラウンドワン" />
+        <TimelineItem year="2022" description="smolt" />
+        <TimelineItem year="2023" description="ラウンドワン" />
+        <TimelineItem year="2024" description="wowd" />
       </Section>
     </>
   );

@@ -16,12 +16,12 @@
       "date": "2024/9/26"
     },
     {
-      "name": "チャットアプリ",
-      "description": "リアルタイムでチャットができるアプリです",
-      "imageUrl": "https://via.placeholder.com/300",
-      "link": "https://example.com/chat-app",
-      "tags": ["Node.js", "Socket.IO"],
-      "date": "2022/02/20"
+      "name": "あいる【宮大観光✖️グルメ】",
+      "description": "宮崎大学の観光スポットとグルメを紹介するインスタグラムアカウントです。",
+      "imageUrl": "/cards-imgs/ail.jpg",
+      "link": "https://www.instagram.com/miyadai.sightseeing/",
+      "tags": ["Instagram"],
+      "date": "2024/010/31"
     },
     {
       "name": "タスク管理アプリ",

@@ -5,12 +5,12 @@ import Typography from '@mui/material/Typography';
 // 共通スタイルオブジェクト
 const sectionStyle = {
   width: '100%',
-  minHeight: '100vh', // heightをminHeightに変更
+  minHeight: '100vh',
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center', // 中央揃えに変更
   textAlign: 'left',
-  padding: '1rem', // パディングを調整
+  padding: '1rem',
   boxSizing: 'border-box', // パディングを含めた幅計算
 };
 
@@ -84,6 +84,7 @@ const Section = ({ id, title, backgroundColor, children }) => (
     sx={{
       ...sectionStyle,
       backgroundColor: backgroundColor,
+      overflowX: 'hidden', // 横スクロールを防ぐ
     }}
   >
     <Box
@@ -93,6 +94,7 @@ const Section = ({ id, title, backgroundColor, children }) => (
         maxWidth: '600px',
         width: '100%', // 幅を100%に
         padding: { xs: '1rem', sm: '2rem' }, // レスポンシブパディング
+        boxSizing: 'border-box', // パディングを含めた幅計算
       }}
     >
       <Typography variant="h4" component="h2" sx={headingStyle}>

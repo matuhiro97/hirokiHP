@@ -5,13 +5,13 @@ import Typography from '@mui/material/Typography';
 // 共通スタイルオブジェクト
 const sectionStyle = {
   width: '100%',
-  height: '100vh',
+  minHeight: '100vh', // heightをminHeightに変更
   display: 'flex',
   alignItems: 'center',
-  justifyContent: 'flex-start', // 左寄せに変更
-  textAlign: 'left', // テキストを左寄せ
-  padding: '2rem',
-  paddingLeft: '5%', // 左にスペースを持たせる
+  justifyContent: 'center', // 中央揃えに変更
+  textAlign: 'left',
+  padding: '1rem', // パディングを調整
+  boxSizing: 'border-box', // パディングを含めた幅計算
 };
 
 const headingStyle = {
@@ -19,6 +19,7 @@ const headingStyle = {
   fontWeight: 'bold',
   position: 'relative',
   paddingLeft: '1.5rem',
+  fontSize: { xs: '1.5rem', sm: '2.125rem' }, // レスポンシブフォントサイズ
   '&::before': {
     content: '""',
     position: 'absolute',
@@ -34,17 +35,17 @@ const headingStyle = {
 const YearCircle = ({ year }) => (
   <Box
     sx={{
-      width: '80px', // 円のサイズ
-      height: '80px', // 円のサイズ
-      borderRadius: '50%', // 完全な円にする
-      border: '4px solid #fff', // 枠線を追加
+      width: { xs: '60px', sm: '80px' }, // レスポンシブサイズ
+      height: { xs: '60px', sm: '80px' },
+      borderRadius: '50%',
+      border: '4px solid #fff',
       color: '#fff',
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
       fontWeight: 'bold',
-      fontSize: '1.5rem',
-      marginRight: '1.5rem',
+      fontSize: { xs: '1.2rem', sm: '1.5rem' }, // レスポンシブフォントサイズ
+      marginRight: { xs: '1rem', sm: '1.5rem' },
     }}
   >
     {year}
@@ -58,10 +59,19 @@ const TimelineItem = ({ year, description }) => (
       display: 'flex',
       alignItems: 'center',
       marginBottom: '1rem',
+      flexWrap: { xs: 'wrap', sm: 'nowrap' }, // スマホでは折り返し
     }}
   >
     <YearCircle year={year} />
-    <Typography variant="body1" sx={{ color: '#fff' }}>
+    <Typography 
+      variant="body1" 
+      sx={{ 
+        color: '#fff',
+        width: { xs: '100%', sm: 'auto' }, // スマホでは全幅
+        marginTop: { xs: '0.5rem', sm: '0' }, // スマホでは上部にマージン
+        fontSize: { xs: '0.9rem', sm: '1rem' }, // レスポンシブフォントサイズ
+      }}
+    >
       {description}
     </Typography>
   </Box>
@@ -81,6 +91,8 @@ const Section = ({ id, title, backgroundColor, children }) => (
         color: '#fff',
         textAlign: 'left',
         maxWidth: '600px',
+        width: '100%', // 幅を100%に
+        padding: { xs: '1rem', sm: '2rem' }, // レスポンシブパディング
       }}
     >
       <Typography variant="h4" component="h2" sx={headingStyle}>
@@ -96,10 +108,10 @@ const About = () => {
     <>
       {/* Section 1: 何者なのか */}
       <Section id="about" title="なにもの？" backgroundColor="#3949ab">
-        <Typography variant="body1">
+        <Typography variant="body1" sx={{ fontSize: { xs: '0.9rem', sm: '1rem' } }}>
           情報系学部の3年生です。ゲーム、Webなど作ったりしています。
         </Typography>
-        <Typography variant="body1">
+        <Typography variant="body1" sx={{ fontSize: { xs: '0.9rem', sm: '1rem' } }}>
           登山、キャンプ、旅行もそこそこ好きです。
         </Typography>
       </Section>

@@ -1,6 +1,6 @@
 {
     "routes": [
-      { "src": "/google8f968d69afcfedf9.html", "dest": "/public/google8f968d69afcfedf9.html" }
+      { "src": "/google8f968d69afcfedf9.html", "dest": "google8f968d69afcfedf9.html" }
     ]
   }
   

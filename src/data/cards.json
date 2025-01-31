@@ -12,7 +12,7 @@
     "name": "企業マッチング",
     "description": "ユーザーに最もマッチする宮崎県内の企業を簡単にみつけられます。",
     "imageUrl": "/cards-imgs/02.png",
-    "link": "https://taishi.pythonanywhere.com/match/company/0/",
+    "link": "https://taishi-sushi.com/match/company/0/",
     "tags": ["Jango", "SQLite"],
     "date": "2024/9/26",
     "page": "02"

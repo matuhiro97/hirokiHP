@@ -1,83 +1,29 @@
 [
-    {
-      "name": "miyadai-tower-battle",
-      "description": "宮〇関係のキャラクターが出てくる動物タワーバトルのオマージュゲームです。",
-      "imageUrl": "/cards-imgs/01.png",
-      "link": "https://unityroom.com/games/miyadaitower",
-      "tags": ["Unity", "C#"],
-      "date": "2023/11/16"
-    },
-    {
-      "name": "企業マッチング",
-      "description": "ユーザーに最もマッチする宮崎県内の企業を簡単にみつけられます。",
-      "imageUrl": "/cards-imgs/02.png",
-      "link": "https://taishi.pythonanywhere.com/match/company/0/",
-      "tags": ["Jango","SQLite"],
-      "date": "2024/9/26"
-    },
-    {
-      "name": "あいる【宮大観光✖️グルメ】",
-      "description": "宮崎大学の観光スポットとグルメを紹介するインスタグラムアカウントです。",
-      "imageUrl": "/cards-imgs/03.png",
-      "link": "https://www.instagram.com/miyadai.sightseeing/",
-      "tags": ["Instagram"],
-      "date": "2024/010/31"
-    },
-    {
-      "name": "タスク管理アプリ",
-      "description": "毎日のタスクを管理できるアプリです",
-      "imageUrl": "https://via.placeholder.com/300",
-      "link": "https://example.com/task-app",
-      "tags": ["JavaScript", "React"],
-      "date": "2022/03/01"
-    },
-    {
-      "name": "ブログサイト",
-      "description": "自分のブログ記事を投稿できるサイトです",
-      "imageUrl": "https://via.placeholder.com/300",
-      "link": "https://example.com/blog-site",
-      "tags": ["Gatsby", "GraphQL"],
-      "date": "2022/04/05"
-    },
-    {
-      "name": "ショッピングカートアプリ",
-      "description": "ECサイト用のショッピングカートアプリです",
-      "imageUrl": "https://via.placeholder.com/300",
-      "link": "https://example.com/shopping-cart",
-      "tags": ["JavaScript", "Redux"],
-      "date": "2022/05/15"
-    },
-    {
-      "name": "天気予報アプリ",
-      "description": "天気情報を提供するアプリです",
-      "imageUrl": "https://via.placeholder.com/300",
-      "link": "https://example.com/weather-app",
-      "tags": ["JavaScript", "API"],
-      "date": "2022/06/25"
-    },
-    {
-      "name": "音楽プレイヤー",
-      "description": "音楽を再生するためのシンプルなアプリです",
-      "imageUrl": "https://via.placeholder.com/300",
-      "link": "https://example.com/music-player",
-      "tags": ["HTML", "CSS", "JavaScript"],
-      "date": "2022/07/12"
-    },
-    {
-      "name": "フィットネスアプリ",
-      "description": "自宅でフィットネスを楽しむためのアプリです",
-      "imageUrl": "https://via.placeholder.com/300",
-      "link": "https://example.com/fitness-app",
-      "tags": ["React", "Redux"],
-      "date": "2022/08/20"
-    },
-    {
-      "name": "スケジュール管理アプリ",
-      "description": "個人のスケジュールを簡単に管理するアプリです",
-      "imageUrl": "https://via.placeholder.com/300",
-      "link": "https://example.com/schedule-app",
-      "tags": ["React", "Material-UI"],
-      "date": "2022/09/10"
-    }
-  ]
-  
+  {
+    "name": "miyadai-tower-battle",
+    "description": "宮〇関係のキャラクターが出てくる動物タワーバトルのオマージュゲームです。",
+    "imageUrl": "/cards-imgs/01.png",
+    "link": "https://unityroom.com/games/miyadaitower",
+    "tags": ["Unity", "C#"],
+    "date": "2023/11/16",
+    "page": "01"
+  },
+  {
+    "name": "企業マッチング",
+    "description": "ユーザーに最もマッチする宮崎県内の企業を簡単にみつけられます。",
+    "imageUrl": "/cards-imgs/02.png",
+    "link": "https://taishi.pythonanywhere.com/match/company/0/",
+    "tags": ["Jango", "SQLite"],
+    "date": "2024/9/26",
+    "page": "02"
+  },
+  {
+    "name": "あいる【宮大観光】",
+    "description": "宮崎大学の観光スポットとグルメを紹介するインスタグラムアカウントです。",
+    "imageUrl": "/cards-imgs/03.png",
+    "link": "https://www.instagram.com/miyadai.sightseeing/",
+    "tags": ["Instagram"],
+    "date": "2024/10/31",
+    "page": "03"
+  }
+]

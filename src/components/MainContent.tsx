@@ -7,11 +7,11 @@ const MainContent: React.FC = () => {
       <Grid container spacing={2}>
         <Grid item xs={12}>
           <Typography variant="h2">Home</Typography>
-          <Typography>Welcome to my homepage. This is a simple website built with React and TypeScript.</Typography>
+          <Typography>霧島のHPです.</Typography>
         </Grid>
         <Grid item xs={12}>
           <Typography variant="h2">About</Typography>
-          <Typography>This section talks about 松本浩輝 and his journey with React components and TypeScript.</Typography>
+          <Typography>This section talks about 霧島 and his journey with React components and TypeScript.</Typography>
         </Grid>
         <Grid item xs={12}>
           <Typography variant="h2">Contact</Typography>

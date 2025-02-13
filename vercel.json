@@ -1,6 +1,6 @@
 {
     "routes": [
-      { "src": "/google(.*)\\.html", "dest": "/google$1.html" },
+      
       { "src": "/(.*)", "dest": "/index.html" }
     ]
   }

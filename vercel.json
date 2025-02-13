@@ -1,6 +1,7 @@
 {
-    "rewrites": [
-      { "source": "/(.*)", "destination": "/index.html" }
+    "routes": [
+      { "src": "/google(.*)\\.html", "dest": "/public/google$1.html" },
+      { "src": "/(.*)", "dest": "/index.html" }
     ]
   }
   
